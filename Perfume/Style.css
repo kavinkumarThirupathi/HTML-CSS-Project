@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navigation{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+
+}
+h1,li,ul{
+    display: inline;
+}
+ul{
+    padding-left: 60%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: azure;
+}
+input{
+    width: 60%;
+    padding: 15px;
+    
+}
+.Seach{
+    padding: 50px;
+    text-align: center;
+}
+.Box{
+   border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.Box:hover{
+    background-color: black;
+    color: aqua;
+}
+.About{
+    text-align: center;
+    padding: 20px;
+}
+.Contact{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
